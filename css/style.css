@@ -12,6 +12,8 @@ header{
     align-items: center;
 }
 
+/* HEADER */
+
 .container{
     width: 70%;
     margin: 0 auto;
@@ -61,3 +63,7 @@ i{
     padding: 10px;
     margin-left: 30px; 
 }
+
+/* MAIN */
+
+
