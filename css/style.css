@@ -52,17 +52,11 @@ li{
     width: 30%;
 }
 
-.icon-header::after{
-    content: "";
-    display: table;
-    clear: both;  
-}
 
 i{
-    float: left;
     color: white;
-    padding: 10px;
-    margin-left: 30px; 
+    margin: 10px;
+    
 }
 
 /* MAIN */
@@ -81,6 +75,7 @@ i{
 .content{
     margin: 10px;
     position: relative;
+    cursor: pointer;
 }
 
 .content img{
@@ -135,6 +130,10 @@ i{
     z-index: 1;
 }
 
+.label-hearts:hover{
+    color: red;
+}
+
 .green{
     background-color: green;
 }
@@ -157,6 +156,7 @@ i{
 .col-33:hover .overlay{
     opacity: 1;
 }
+
 
 .description{
     margin: 10px;
@@ -181,7 +181,6 @@ footer{
 
 h2{
    font-size: 20px;
-   margin-bottom: 10px;
 }
 
 .col{
@@ -194,15 +193,12 @@ h2{
     padding: 3px;
 }
 
-.social-media::after{
-    content: "";
-    display: table;
-    clear: both;
+h3{
+    margin-top: 10px;
 }
 
 i{
     float: left;
     width: 10px;
-    margin-top: 15px;
-    padding: 0;
+  
 }
